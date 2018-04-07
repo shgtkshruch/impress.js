@@ -22,7 +22,6 @@
     "url": "https://github.com/impress/impress.js/issues"
   },
   "scripts": {
-    "build": "staticrypt index.html kimuchi",
     "deploy": "gh-pages -d dist",
     "lint": "jshint src test/*.js && jscs src test/*.js",
     "test": "karma start --single-run",
