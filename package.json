@@ -23,6 +23,7 @@
   },
   "scripts": {
     "build": "staticrypt index.html kimuchi",
+    "deploy": "gh-pages -d dist",
     "lint": "jshint src test/*.js && jscs src test/*.js",
     "test": "karma start --single-run",
     "test:dev": "karma start",
